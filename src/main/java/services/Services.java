@@ -112,6 +112,7 @@ public class Services {
 	}
 
 	// Search songs
+	
 
 	@GET
 	@Path("{name}")
@@ -126,6 +127,8 @@ public class Services {
 		}
 		return Response.status(200).entity(songString).build();
 	}
+	
+	/*
 	@GET
 	@Path("{department}")
 	@Produces({ MediaType.APPLICATION_JSON })
@@ -153,5 +156,6 @@ public class Services {
 		return Response.status(200).entity(songString).build();
 	}
 	
+	 */
 	
 }
